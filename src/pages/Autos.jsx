@@ -40,13 +40,62 @@ function App() {
 
   // Catálogo fijo de marcas
   const marcasDisponibles = [
-    "Toyota",
-    "Renault",
-    "Chevrolet",
-    "Ford",
-    "Kia",
-    "Mazda",
-    "Nissan",
+    "BYD",
+    "CHERY",
+    "DFSK",
+    "JMC",
+    "GREAT WALL",
+    "HAFEI",
+    "JAC",
+    "JIMBEI",
+    "LIFAN",
+    "SAIC",
+    "WULING",
+    "TRUCK CHEVROLET",  
+    "TRUCK DIHATSU",
+    "TRUCK FORD",
+    "TRUCK FOTON",
+    "TRUCK FREIGHTLINER",
+    "TRUCK HINO",
+    "TRCUK HYUNDAI",
+    "TRUCK ISUZU",
+    "TRUCK JAC",
+    "TRUCK INTERNATIONAL",
+    "TRUCK KENWORTH",
+    "TRUCK MERCEDES",
+    "TRUCK MACK",
+    "TRUCK MITSUBISHI",
+    "TRUCK NISSAN",
+    "AUDI",
+    "BMW",
+    "NISSAN",
+    "HONDA",
+    "HIUNDAI",
+    "TOYOTA",
+    "RENAULT",
+    "CHEVROLET",
+    "CITROEN",
+    "DAIHATSU",
+    "DODGE CHRYSLER", 
+    "FIAT",
+    "JEEP",
+    "LEXUS",
+    "MERCEDES BENZ",
+    "MG ROVER",
+    "LAND ROVER",
+    "DAEWOO",
+    "PEUGEOT",
+    "PIAGGIO",
+    "SEAT",
+    "SKODA",
+    "SSANGYONG",
+    "VOLKSWAGEN",
+    "FORD",
+    "KIA",
+    "MAZDA",
+    "SUZUKI",
+    "MITSUBISHI",
+    "SUBARU",
   ];
 
   // Cargar usuarios al inicio
@@ -124,7 +173,7 @@ function App() {
           value={filterMarca}
           onChange={(e) => setFilterMarca(e.target.value)}
         >
-          <option value="">Todas las marcas</option>
+          <option value="">TODAS LAS MARCAS</option>
           {marcasDisponibles.map((marca, i) => (
             <option key={i} value={marca}>
               {marca}
